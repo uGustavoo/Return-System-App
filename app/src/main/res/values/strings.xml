@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">ReturnSystem</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    // Login Layout
+    <string name="login">Login</string>
+    <string name="LOGIN">LOGIN</string>
+    <string name="cadastro">Cadastro</string>
+    <string name="CADASTRO">CADASTRO</string>
+    <string name="usuario">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="esqueceu">Esqueceu a senha?</string>
+    <string name="entrar">Entrar</string>
+
+    // Cadastro Layout
+    <string name="matricula">Matrícula</string>
+    <string name="email">E-mail</string>
+    <string name="registrar">Registrar</string>
+
+    // Entrada Layout
+    <string name="coleta">Coleta</string>
+    <string name="devolucao">Devolução</string>
+    <string name="sobre">Sobre</string>
+
+    // Entrada Layout
+    <string name="status">Status</string>
+    <string name="outros">Outros</string>
+    <string name="meunome">Gustavo</string>
+    <string name="meuemail">gustavocelso.gc@gmail.com</string>
+
+    // Produtos Layout
+    <string name="produtos">Produtos</string>
+    <string name="modelo">Modelo</string>
+    <string name="serial_number">Serial Number</string>
+    <string name="sn">S/N</string>
+    <string name="data_hora">Data/Hora</string>
+    <string name="recebedor">Recebedor</string>
+    <string name="operacao">Operação</string>
+    <string name="part_number">Part Number</string>
+    <string name="modelos">Modelos</string>
+    <string name="inspetor">Inspetor</string>
+    <string name="box_label">Box Label</string>
+    <string name="fazer_registro">REGISTRAR</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="salvar">Salvar</string>
+    <string name="sair">Sair</string>
+    <string name="obs">Observação</string>
+    <string name="modelo_registrado">Modelo registrado:</string>
+    <string name="pesquisar">Pesquisar serial...</string>
+    <string name="recarregar">Recarregar</string>
+    <string name="carregando">Carregando...</string>
+    <string name="kit">Kit</string>
+    <string name="creditos">Direitos Autorais © 2023 North Connect. Todos os direitos reservados.\n
+    Este aplicativo foi desenvolvido por Gustavo Celso, com o objetivo de melhorar os processos de entrada e saída da empresa.
+A cópia, reprodução ou distribuição não autorizada deste sistema é estritamente proibida.</string>
+
+</resources>

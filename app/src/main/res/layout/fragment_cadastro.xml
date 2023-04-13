@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.cadastro.CadastroFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/dark_gray"
+            tools:context=".Cadastro">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/login"
+                    android:stateListAnimator="@null"
+                    android:backgroundTint="@color/dark_gray"
+                    android:textColor="@color/gray"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="top"
+                    android:paddingStart="30dp"
+                    android:paddingEnd="30dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_marginTop="123dp"
+                    android:layout_marginStart="62dp"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+
+                <Button
+                    android:id="@+id/cadastro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/cadastro"
+                    android:stateListAnimator="@null"
+                    android:backgroundTint="@color/dark_gray"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="top"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_marginTop="123dp"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/snow"
+                    android:hint="@string/usuario"
+                    android:padding="15dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/usuario"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:ems="15"
+                        android:maxLines="1"
+                        android:maxLength="30"
+                        android:autofillHints=""
+                        android:backgroundTint="@color/dark_gray"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/snow"
+                    android:hint="@string/matricula"
+                    android:padding="15dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/matricula"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:ems="15"
+                        android:maxLines="1"
+                        android:maxLength="30"
+                        android:autofillHints=""
+                        android:backgroundTint="@color/dark_gray"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/snow"
+                    android:hint="@string/email"
+                    android:padding="15dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/email"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:ems="15"
+                        android:maxLines="1"
+                        android:maxLength="30"
+                        android:autofillHints=""
+                        android:backgroundTint="@color/dark_gray"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:hint="@string/senha"
+                    android:padding="15dp"
+                    android:textColorHint="@color/snow"
+                    app:passwordToggleEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/senha"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:inputType="textPassword"
+                        android:ems="15"
+                        android:maxLength="30"
+                        android:maxLines="1"
+                        android:autofillHints=""
+                        android:backgroundTint="@color/dark_gray"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <Button
+                    android:id="@+id/registrar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/registrar"
+                    android:backgroundTint="@color/wine"
+                    android:textColor="@color/snow"
+                    android:textSize="18sp"
+                    android:padding="15dp"
+                    android:layout_margin="35dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

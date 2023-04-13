@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_coleta"
+            android:icon="@drawable/baseline_coleta"
+            android:title="@string/coleta"/>
+
+        <item
+            android:id="@+id/nav_devolucao"
+            android:icon="@drawable/baseline_devolucao"
+            android:title="@string/devolucao"/>
+
+        <item
+            android:id="@+id/nav_status"
+            android:icon="@drawable/baseline_status"
+            android:title="@string/status"/>
+
+        <item
+            android:id="@+id/nav_modelos"
+            android:icon="@drawable/baseline_cadastro"
+            android:title="@string/modelos"/>
+
+        <item android:title="@string/outros">
+
+            <menu>
+
+            <item
+                android:id="@+id/usuario"
+                android:icon="@drawable/baseline_usuario"
+                android:title="@string/usuario"/>
+
+            <item
+                android:id="@+id/menu_sobre"
+                android:icon="@drawable/baseline_sobre"
+                android:title="@string/sobre"/>
+
+                <item
+                    android:id="@+id/menu_sair"
+                    android:icon="@drawable/baseline_logout"
+                    android:title="@string/sair"/>
+
+            </menu>
+
+        </item>
+
+    </group>
+</menu>

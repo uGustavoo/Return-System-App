@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_pesquisa"
+        android:icon="@drawable/baseline_pesquisa_white"
+        app:showAsAction="always"
+        android:title="@string/pesquisar" />
+
+    <item
+        android:id="@+id/menu_refresh"
+        android:icon="@drawable/baseline_refresh_white"
+        app:showAsAction="ifRoom"
+        android:title="@string/recarregar"/>
+</menu>

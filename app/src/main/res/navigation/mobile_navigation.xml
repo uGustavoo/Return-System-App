@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_coleta">
+
+    <fragment
+        android:id="@+id/nav_coleta"
+        android:name="com.app.returnsystem.ui.coleta.ColetaFragment"
+        android:label="@string/coleta"
+        tools:layout="@layout/fragment_coleta" />
+
+    <fragment
+        android:id="@+id/nav_devolucao"
+        android:name="com.app.returnsystem.ui.devolucao.DevolucaoFragment"
+        android:label="@string/devolucao"
+        tools:layout="@layout/fragment_devolucao" />
+
+    <fragment
+        android:id="@+id/nav_status"
+        android:name="com.app.returnsystem.ui.status.StatusFragment"
+        android:label="@string/status"
+        tools:layout="@layout/fragment_status" />
+
+    <fragment
+        android:id="@+id/nav_modelos"
+        android:name="com.app.returnsystem.ui.modelos.ModelosFragment"
+        android:label="@string/modelos"
+        tools:layout="@layout/fragment_modelos" />
+</navigation>

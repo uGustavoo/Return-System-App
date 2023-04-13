@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ReturnSystem" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/snow</item>
+        <item name="colorPrimaryVariant">@color/dark_gray_2</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/wine</item>
+        <item name="colorSecondaryVariant">@color/wine</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Theme.ReturnSystem.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.ReturnSystem.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.ReturnSystem.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="SearchViewStyle">
+        <item name="colorSecondary">@color/wine</item>
+        <item name="searchBackground">@color/dark_gray_2</item>
+        <item name="android:inputType">text</item>
+        <item name="android:hint">@string/pesquisar</item>
+        <item name="android:textColor">@color/snow</item>
+        <item name="backIconTint">@color/snow</item>
+        <item name="iconsTint">@color/snow</item>
+        <item name="hintColor">@color/snow</item>
+
+        <item name="backIconAlpha">0.8</item>
+        <item name="iconsAlpha">0.8</item>
+
+        <!-- Enable voice search -->
+        <item name="voiceSearch">true</item>
+        <item name="voiceSearchPrompt">Fale agora</item>
+    </style>
+
+</resources>
